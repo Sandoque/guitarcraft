@@ -3,7 +3,14 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
 /* Header */
+
 .header {
   position: fixed;
   top: 0;
@@ -36,24 +43,63 @@ body {
 .header-menu ul li a:hover {
   color: #fff;
 }
+
 /* Introdução */
 .home-intro {
-  top: 80px;
+  margin-top: 80px;
   width: 100%;
   height: 380px;
   text-align: center;
-  background-image: url("/img/home/bg-home.jpg");
-  background-size: 100%;
+  background: url("../img/home/bg-home.jpg") no-repeat;
+  background-size: cover;
+  padding-top: 60px;
 }
 
 .titulo {
-  padding-top: 80px;
+  text-transform: uppercase;
+  padding-bottom: 18px;
   color: #fff;
   font-weight: bold;
-  font-size: 2.5em;
+  font-size: 48px;
+  line-height: 60px;
 }
 
-. .grid-16 {
+.quote-externo {
+  max-width: 320px;
+  margin: 0 auto;
+  color: #fff;
+  font-weight: bold;
+}
+
+.texto-quote {
+  font-style: italic;
+}
+
+.citacao {
+  font-style: normal;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  display: block;
+  margin-top: 12px;
+}
+
+.btn-orcamento img {
+  margin-top: 50px;
+  max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn-orcamento img:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.grid-16 {
   position: absolute;
   top: 520px;
   left: 230px;
