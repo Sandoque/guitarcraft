@@ -17,6 +17,10 @@ p {
   font: normal bold 14px/20px Arial, Helvetica, sans-serif;
   letter-spacing: 0.2em;
   display: inline-block;
+  border-radius: 3px;
+  box-shadow: 5px 5px 3px #333;
+  background: url("../img/bg-btn.jpg") no-repeat;
+  background-size: cover;
 }
 
 .btn:hover {
