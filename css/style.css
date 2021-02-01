@@ -9,6 +9,20 @@ p {
   line-height: 20px;
 }
 
+.btn {
+  border: 4px solid #fec63e;
+  padding: 12px 21px;
+  color: #fec63e;
+  text-transform: uppercase;
+  font: normal bold 14px/20px Arial, Helvetica, sans-serif;
+  letter-spacing: 0.2em;
+  display: inline-block;
+}
+
+.btn:hover {
+  color: #fff;
+  border-color: #fff;
+}
 /* Header */
 
 .header {
@@ -16,7 +30,7 @@ p {
   top: 0;
   width: 100%;
   height: 80px;
-  background-color: #fec63e;
+  background-color: #fec63e; /* Amarelo */
   padding: 3px;
 }
 
@@ -52,12 +66,12 @@ p {
   text-align: center;
   background: url("../img/home/bg-home.jpg") no-repeat;
   background-size: cover;
-  padding-top: 60px;
+  padding-top: 80px;
 }
 
 .titulo {
   text-transform: uppercase;
-  padding-bottom: 18px;
+  margin-bottom: 5px;
   color: #fff;
   font-weight: bold;
   font-size: 48px;
@@ -75,6 +89,16 @@ p {
   font-style: italic;
 }
 
+.texto-quote::before,
+.texto-quote::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #fff;
+  margin: 13px auto 11px auto;
+}
+
 .citacao {
   font-style: normal;
   color: #fff;
@@ -83,20 +107,7 @@ p {
   letter-spacing: 0.1em;
   display: block;
   margin-top: 12px;
-}
-
-.btn-orcamento img {
-  margin-top: 50px;
-  max-width: 100%;
-  -moz-transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-.btn-orcamento img:hover {
-  -moz-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+  margin-bottom: 45px;
 }
 
 .grid-16 {
