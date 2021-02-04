@@ -3,7 +3,7 @@
 ## 🖥 Preview
 
 <p align = "center">
-  <img src = "https://user-images.githubusercontent.com/65127683/106852848-8311aa80-6697-11eb-9dee-b1974b3ec9c5.png" height = "300">
+  <img src = "https://user-images.githubusercontent.com/65127683/106853898-30d18900-6699-11eb-8cf4-4bc95a5870a5.gif" height = "300">
 </p>
 
 ---
