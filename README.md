@@ -1,4 +1,4 @@
-<h1 align = "center">guitarcraft</h1>
+<h1 align = "center">:guitar: guitarcraft</h1>
 
 ## 🖥 Preview
 
