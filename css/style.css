@@ -1,4 +1,5 @@
 /* Estilos Gerais*/
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -28,7 +29,7 @@ p {
   border-color: #fff;
 }
 
-.btn.btn-preto:hover {
+.btn.btn_preto:hover {
   color: #000;
   border-color: #000;
 }
@@ -53,6 +54,12 @@ p {
   margin: 8px auto;
 }
 
+.call {
+  padding-top: 40px;
+  text-align: center;
+  clear: both;
+}
+
 /* Header */
 
 .header {
@@ -65,17 +72,17 @@ p {
   z-index: 10;
 }
 
-.header-menu {
+.header_menu {
   text-align: right;
 }
 
-.header-menu ul li {
+.header_menu ul li {
   display: inline-block;
   margin-left: 25px;
   margin-top: 27px;
 }
 
-.header-menu ul li a {
+.header_menu ul li a {
   color: #000;
   font-weight: bold;
   text-transform: uppercase;
@@ -85,12 +92,12 @@ p {
   padding: 10px 0;
 }
 
-.header-menu ul li a:hover {
+.header_menu ul li a:hover {
   color: #fff;
 }
 
-/* Introdução */
-.home-intro {
+/* home Introdução */
+.home_intro {
   margin-top: 80px;
   width: 100%;
   height: 380px;
@@ -109,19 +116,19 @@ p {
   line-height: 60px;
 }
 
-.quote-externo {
+.quote_externo {
   max-width: 320px;
   margin: 0 auto;
   color: #fff;
   font-weight: bold;
 }
 
-.texto-quote {
+.texto_quote {
   font-style: italic;
 }
 
-.texto-quote::before,
-.texto-quote::after {
+.texto_quote::before,
+.texto_quote::after {
   content: "";
   display: block;
   width: 60px;
@@ -141,18 +148,18 @@ p {
   margin-bottom: 45px;
 }
 
-/* Produtos*/
+/* Home Produtos*/
 
 .produtos {
   padding: 60px 0;
 }
 
-.produtos-lista li {
+.produtos_lista li {
   background: #fec63e;
   text-align: center;
 }
 
-.produtos-lista li h3 {
+.produtos_lista li h3 {
   font-weight: bold;
   font-size: 18px;
   line-height: 25px;
@@ -161,7 +168,7 @@ p {
   margin-top: 20px;
 }
 
-.produtos-lista li h3:after {
+.produtos_lista li h3:after {
   content: "";
   display: block;
   width: 60px;
@@ -170,21 +177,17 @@ p {
   margin: 2px auto;
 }
 
-.produtos-lista li p {
+.produtos_lista li p {
   padding: 10px 20px 20px 20px;
 }
 
-.produtos-icones {
+.produtos_icones {
   background: #000;
   padding: 20px;
-}
-
-.call {
-  padding-top: 40px;
-  text-align: center;
-  clear: both;
 }
 
 .call p {
   margin-bottom: 20px;
 }
+
+/* Home Portfólio*/
