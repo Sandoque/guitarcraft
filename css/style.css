@@ -145,7 +145,6 @@ p {
   letter-spacing: 0.1em;
   display: block;
   margin-top: 12px;
-  margin-bottom: 45px;
 }
 
 /* Home Produtos*/
@@ -191,3 +190,25 @@ p {
 }
 
 /* Home Portfólio*/
+
+.portfolio {
+  background: #000;
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 40px;
+}
+
+.portfolio .subtitulo {
+  color: #fec63e;
+}
+
+.portfolio .subtitulo::after {
+  background: #fec63e;
+}
+
+.portfolio_lista li:last-child {
+  margin-top: 20px;
+}
+.call.call_portfolio p {
+  color: #fff;
+}
