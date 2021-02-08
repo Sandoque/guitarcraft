@@ -1,12 +1,16 @@
 /* Introdução*/
 .interna_sobre {
-  margin-top: 61px;
+  margin-top: 60px;
   width: 100%;
   height: 160px;
   text-align: center;
   background: url("../img/home/bg-home.jpg") no-repeat;
   background-size: cover;
-  padding-top: 40px;
+  padding: 30px 0;
+}
+
+.interna_sobre h1 {
+  font-size: 36px;
 }
 
 .interna_sobre h1::after {
@@ -23,4 +27,59 @@
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 14px;
   line-height: 20px;
+}
+
+/*Historia*/
+.historia {
+  padding: 60px 0;
+  text-align: left;
+}
+
+.sobre_historia h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 0;
+}
+
+.sobre_historia h3:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000;
+  margin: 6px auto 12px 0;
+}
+
+.sobre_historia p {
+  max-width: 520px;
+  margin-bottom: 10px;
+}
+
+.sobre_valores h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 0;
+}
+
+.sobre_valores h3:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000;
+  margin: 6px auto 12px 0;
+}
+
+.sobre_valores ul li {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+  line-height: 25px;
 }
