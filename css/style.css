@@ -316,3 +316,34 @@ img {
   margin-top: 6px;
   margin-bottom: 12px;
 }
+
+.footer_historia p {
+  max-width: 400px;
+}
+
+.footer_contatos ul li {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.footer_redes ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer_redes ul li a {
+  border: 3px solid #fec63e;
+  padding: 10px;
+  display: block;
+}
+
+.footer_redes ul li a:hover {
+  border-color: #fff;
+}
+
+.copy {
+  width: 100%;
+  padding: 20px;
+  background: #fec63e;
+}
