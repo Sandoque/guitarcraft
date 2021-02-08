@@ -83,3 +83,15 @@
   font-size: 14px;
   line-height: 25px;
 }
+
+/*valores quebra*/
+.valores_quebra_bg {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  width: 940px;
+  height: 320px;
+  text-align: center;
+  background: url("../img/sobre/sobre-valores.jpg") no-repeat;
+  background-size: cover;
+  padding: 30px 0;
+}
